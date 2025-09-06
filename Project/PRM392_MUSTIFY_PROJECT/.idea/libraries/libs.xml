@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/sqljdbc41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jlayer-1.0.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-3.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jar_files.zip!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mssql-jdbc-10.2.2.jre17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

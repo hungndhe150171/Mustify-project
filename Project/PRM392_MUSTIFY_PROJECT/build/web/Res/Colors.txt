@@ -1,0 +1,3 @@
+green-spotify: #1DB954
+spotify_dark_gray: #121212
+spotify_light_gray: #B3B3B3

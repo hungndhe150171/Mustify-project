@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>AddSongServlet</servlet-name>
+        <servlet-class>Controller.AddSongServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListSongServlet</servlet-name>
+        <servlet-class>Controller.ListSongServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CheckSongExistServlet</servlet-name>
+        <servlet-class>Controller.CheckSongExistServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteSongServlet</servlet-name>
+        <servlet-class>Controller.DeleteSongServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddSongServlet</servlet-name>
+        <url-pattern>/addsong</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListSongServlet</servlet-name>
+        <url-pattern>/listsong</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckSongExistServlet</servlet-name>
+        <url-pattern>/CheckSongExistServlet</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>home.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
